@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "new-test": "echo \"Error: no test specified\" && exit 1"
   },
   "jest": {
     "testEnvironment": "node"
   },
   "author": "stephen grider",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
